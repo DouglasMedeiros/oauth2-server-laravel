@@ -25,6 +25,12 @@
         "orchestra/testbench": "2.0.*",
         "squizlabs/php_codesniffer": "1.*"
     },
+    "repositories": [
+       {
+         "type": "git",
+         "url": "git@github.com:DouglasMedeiros/oauth2-server.git"
+       }
+    ],
     "autoload": {
         "classmap": [
             "src/migrations",
